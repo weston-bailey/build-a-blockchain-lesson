@@ -5,7 +5,7 @@
 
 * review concepts related to cryptographic hashing
 * understand the purpose and implementation of cryptographic datastructures
-* understand some practical applications of cryptographic datastructures, and apply knowledge of familiar datastructures to cryptograhic datastructures
+* understand some practical applications of cryptographic datastructures, and apply knowledge of familiar datastructures to cryptographic datastructures
 * describe the history of the web (web 1.0 and web 2.0), and understand some of the concepts of 'web3'
 * understand the difference between a 'blockchain' (public ledger) and other technologies that use cryptographic datastructures
 * get practical experience building a simple blockchain
@@ -18,19 +18,19 @@
 
 ## What is a web3?
 
-* Blockchains are ledgers that keep track of transactions, and use cytpographic techniques for data integrity and validation
+* Blockchains are ledgers that keep track of transactions, and use cryptographic techniques for data integrity and validation
     * They are a long list of transactions, and anyone can add a transaction, and anyone can see all the transactions. 
-    * the information is validated through 'consensus' by third parites (miners) that have to do 'computational work' or 'proofs of work', which is similar computationally to cracking passwords. One block is designed to take 10 minutes to mine
+    * the information is validated through 'consensus' by third parties (miners) that have to do 'computational work' or 'proofs of work', which is similar computationally to cracking passwords. One block is designed to take 10 minutes to mine
     * created by mysterious 'Satoshi Nakamoto' https://en.wikipedia.org/wiki/Satoshi_Nakamoto
     * there is debate about the exact meaning of blockchain, its a pretty hype-y term
         * how can we decide if git is a blockchain if we can't define exactly what makes a blockchain unique? https://stackoverflow.com/questions/46192377/why-is-git-not-considered-a-block-chain
-        *  conssensus and proof of work make blockchain 'decentralized'
+        *  consensus and proof of work make blockchain 'decentralized'
 * web3 is the notion that 'blockchain' will revolution the technology and infrastructure of the internet
 * talk about web 1.0 (dawn of web+) -- user mainly consuming static content (libraries, bbs)
 * talk about web 2.0 (2000s+ era)
     * Web 2.0 (also known as participative (or participatory)[1] web and social web)[2] refers to websites that emphasize user-generated content, ease of use, participatory culture and interoperability (i.e., compatibility with other products, systems, and devices) for end users. 
     * https://en.wikipedia.org/wiki/Web_2.0
-* talk about web 3.0 (semantic web -- copncept/WIP)
+* talk about web 3.0 (semantic web -- concept/WIP)
     * The Semantic Web, sometimes known as Web 3.0 (not to be confused with Web3), is an extension of the World Wide Web through standards[1] set by the World Wide Web Consortium (W3C). The goal of the Semantic Web is to make Internet data machine-readable. 
     * standardization
     * IoT
@@ -43,12 +43,12 @@
 * is it nothing new?
 * or is it just buzzwords used by non technical 'bitcoin bros' ie people with enough disposable income to dumb disposable income in extremely conjectural technologies/investments with no worry
 * how can web get more 'decentralized'?
-* would 'web3' just be a shift from silicone valley having all the cards to invenstment banker bitcoin bros taking some?
+* would 'web3' just be a shift from silicone valley having all the cards to investment banker bitcoin bros taking some?
 * how can blockchain save us when the big companies can just buy up whatever new tech looks promising? (ex: Microsoft owns github)
 
 ## Hashing using sha256
 
-### What is a hashin funciton? 
+### What is a hashing function?  
 
 [from wikipedia](https://en.wikipedia.org/wiki/Cryptographic_hash_function):
 
@@ -73,7 +73,7 @@ SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designe
 ### Cryptographic vs non cryptographic hashes
 
 * cryptographic hashes, such as the ones used to secured passwords in a database provide a high level of security
-* not all hash algorithms are cryptographically secure, but they still have an aboundance of other uses
+* not all hash algorithms are cryptographically secure, but they still have an abundance of other uses
     * A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are usually used to index a fixed-size table called a hash table. Use of a hash function to index a hash table is called hashing or scatter storage addressing. 
     * useful for hash tables and encoding data
     * https://security.stackexchange.com/questions/214656/cryptographic-hash-function-vs-non-cryptographic-hash-function-examples-and-com
@@ -96,7 +96,7 @@ print(hashlib.sha256(encode).hexdigest())
 
 ## Datastructures that use cryptographic hashes
 
-hashing can be applied to datastructures, what are the benifits?
+hashing can be applied to datastructures, what are the benefits?
 
 * dataintegrity
     * check sums use algorithms like `CRC32`

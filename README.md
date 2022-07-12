@@ -18,7 +18,7 @@
 
 ## What is a web3?
 
-* Blockchains are ledgers that keep track of transactions, and use cryptographic techniques for data integrity and validation
+* *Cryptocurrency* Blockchains are ledgers that keep track of transactions, and use cryptographic techniques for data integrity and validation. The Specific meaning and application of the general term '_blockchain_' is somewhat up for debate, but for this lesson, understand it be mean _cryptocurrency blockchain_.
     * They are a long list of transactions, and anyone can add a transaction, and anyone can see all the transactions. 
     * the information is validated through 'consensus' by third parties (miners) that have to do 'computational work' or 'proofs of work', which is similar computationally to cracking passwords. One block is designed to take 10 minutes to mine
     * created by mysterious 'Satoshi Nakamoto' https://en.wikipedia.org/wiki/Satoshi_Nakamoto
